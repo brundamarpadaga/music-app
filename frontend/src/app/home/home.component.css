@@ -1,0 +1,40 @@
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ 
+
+.playlist-card, .album-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ 
+
+.playlist-card img, .album-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+ 
+
+.playlist-card h3, .album-card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+ 
+
+.playlist-card p, .album-card p {
+    color: #888;
+    font-size: 14px;
+}
+
