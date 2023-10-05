@@ -1,29 +1,28 @@
 <!-- your-library.component.html -->
 <div class="your-library">
-    <h2>Your Library</h2>
-    
-    <!-- Buttons for artists and playlists -->
-    <div class="library-buttons">
-      <button (click)="showArtists()">Artists</button>
-      <button (click)="showPlaylists()">Playlists</button>
-    </div>
+  <h2>Your Library</h2>
   
-    <!-- Search input for searching within your library -->
-    <div class="library-search">
-      <input type="text" [(ngModel)]="searchQuery" placeholder="Search in Your Library">
-      <button (click)="searchLibrary()">Search</button>
-    </div>
-  
-    <!-- Section for Your Favorite Artists -->
-    <div class="your-fav-artists">
-      <h3>Your Favorite Artists</h3>
-      <!-- Display your favorite artists here -->
-    </div>
-  
-    <!-- Section for Your Playlists -->
-    <div class="your-playlists">
-      <h3>Your Playlists</h3>
-      <!-- Display your playlists here -->
-    </div>
+  <!-- Buttons for artists and playlists -->
+  <div class="library-buttons">
+    <button (click)="showArtists()" class="library-button">Artists</button>
+    <button (click)="showPlaylists()" class="library-button">Playlists</button>
   </div>
-  <!-- <router-outlet></router-outlet> -->
+
+  <!-- Search input for searching within your library -->
+  <div class="library-search">
+    <input type="text" [(ngModel)]="searchQuery" class="library-input" placeholder="Search in Your Library">
+    <button (click)="searchLibrary()" class="library-button">Search</button>
+  </div>
+
+  <!-- Section for Your Favorite Artists -->
+  <div class="your-fav-artists">
+    <h3>Your Favorite Artists</h3>
+    <!-- Display your favorite artists here -->
+  </div>
+
+  <!-- Section for Your Playlists -->
+  <div class="your-playlists">
+    <h3>Your Playlists</h3>
+    <!-- Display your playlists here -->
+  </div>
+</div>
