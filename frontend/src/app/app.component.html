@@ -1,14 +1,17 @@
 <header>
-    <div class="logo">Spotify</div>
-    <nav>
+    <nav class="vertical-nav">
+        <div class="logo">Spotify</div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Browse</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a routerLink="/your-library">Your Library</a></li>
-            <!-- <button (click)="library()">Your Library</button> -->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse</a></li>
+        <li><a routerLink="/your-library">Your Library</a></li>
+        <li class="login-link"><a href="#">Login</a></li>
         </ul>
-    </nav>
+        </nav>
+        <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button class="search-button">Search</button>
+        </div>
     <div class="user-profile">
         <img src="user-avatar.jpg" alt="User Avatar">
         <span>John Doe</span>
@@ -20,3 +23,4 @@
 <footer>
     <p>&copy; 2023 Spotify</p>
 </footer>
+
