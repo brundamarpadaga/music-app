@@ -1,59 +1,75 @@
-/* Add this CSS to your styles.css or a separate stylesheet */
+/* your-library.component.css */
+
 .your-library {
-    margin: 50px auto;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-}
-
-.library-buttons {
-    margin-top: 20px;
-}
-
-.library-button {
-    padding: 10px 20px;
-    background-color: #007bff;
+    margin-left: 200px
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff; /* Adjust text color to match app header */
+  }
+  
+  /* Library buttons */
+  .library-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .library-button {
+    background-color: #1DB954;
     color: #fff;
     border: none;
     border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.library-button:hover {
-    background-color: #0056b3;
-}
-
-.library-input {
+    transition: background-color 0.3s;
+  }
+  
+  .library-button:hover {
+    background-color: #128935;
+  }
+  
+  /* Library search */
+  .library-search {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .library-input {
+    flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #888;
     border-radius: 5px;
-    width: 70%;
-}
-
-.library-search button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-    font-weight: bold;
-}
-
-.library-search button:hover {
-    background-color: #0056b3;
-}
-
-.your-fav-artists,
-.your-playlists {
+    font-size: 16px;
+    color: #000;
+    background-color: #fff; /* Adjust background color to match app header */
+  }
+  
+  /* Your Favorite Artists section */
+  .your-fav-artists {
     margin-top: 20px;
-}
-
-/* Additional styling can be added as needed */
+  }
+  
+  .your-fav-artists h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* Adjust text color to match app header */
+  }
+  
+  /* Your Playlists section */
+  .your-playlists {
+    margin-top: 20px;
+  }
+  
+  .your-playlists h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* Adjust text color to match app header */
+  }
+  
